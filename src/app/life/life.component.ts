@@ -35,7 +35,7 @@ export class LifeComponent implements OnInit, OnChanges, DoCheck, AfterContentIn
     this.logIt("ngAfterViewChecked");
   }
 
-  constructor() { 
+  constructor() {
     this.logIt("name属性在constructor里的值是:" + name);
   }
 
@@ -43,4 +43,7 @@ export class LifeComponent implements OnInit, OnChanges, DoCheck, AfterContentIn
     this.logIt("ngOnInit");
   }
 
+}
+export class GitTest1{
+  id: number;
 }
