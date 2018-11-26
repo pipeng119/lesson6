@@ -44,3 +44,7 @@ export class LifeComponent implements OnInit, OnChanges, DoCheck, AfterContentIn
   }
 
 }
+
+export class GitTest{
+  id: number;
+}
