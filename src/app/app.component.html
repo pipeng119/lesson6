@@ -17,7 +17,7 @@
 <button (click)="children2.greeting('Jerry')">调用children2的greeting方法</button>模板中调用子组件的方法
 {{message}} -->
 
-<div class="wrapper">
+<!-- <div class="wrapper">
     <h2>我是父组件</h2>
     <div>这个div定义在父组件中</div>
     <app-nine>
@@ -26,4 +26,7 @@
     </app-nine>
 </div>
 
-<div [innerHTML]="divContent"></div>
+<div [innerHTML]="divContent"></div> -->
+<a [routerLink]="['/']">01</a>
+<a [routerLink]="['/des02']" style="margin-left:20px;">02</a>
+<router-outlet></router-outlet>

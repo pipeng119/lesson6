@@ -8,6 +8,9 @@ import { LifeComponent } from './life/life.component';
 import { ChildComponent } from './child/child.component';
 import { ChildrenComponent } from './children/children.component';
 import { NineComponent } from './nine/nine.component';
+import { TenComponent } from './ten/ten.component';
+import { Destroy02Component } from './destroy02/destroy02.component';
+import { Destroy01Component } from './destroy01/destroy01.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { NineComponent } from './nine/nine.component';
     LifeComponent,
     ChildComponent,
     ChildrenComponent,
-    NineComponent
+    NineComponent,
+    TenComponent,
+    Destroy01Component,
+    Destroy02Component
   ],
   imports: [
     BrowserModule,
